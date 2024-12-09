@@ -30,8 +30,7 @@
   let currentImageIndex = 0;
   let showPopup = false;
 
-  const increment = () => {
-    count += 1;
+  const displayPopup = () => {
     showPopup = true;
   };
 
@@ -44,9 +43,11 @@
   };
 </script>
 
-<button on:click={increment}>
-  count is {count}
-</button>
+{#if !showPopup} 
+  <button class="nice-button" on:click={displayPopup}>
+    Flood level of each roads
+  </button>
+{/if}
 
 {#if showPopup}
   <div class="popup-overlay">
@@ -60,8 +61,8 @@
       </div>
 
       <div class="popup-footer" style="display: block;">
-        <button on:click={previousImage}>Previous</button>
-        <button on:click={nextImage}>Next</button>
+        <button class="nice-button" on:click={previousImage}>Previous</button>
+        <button class="nice-button" on:click={nextImage}>Next</button>
       </div>
     </div>
   </div>
@@ -72,8 +73,10 @@
   button {
     height: 100px;
     width: 100px;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   .popup-overlay {
     position: fixed;
     top: 0;
@@ -88,8 +91,6 @@
   }
   
   .popup {
-    /* height: calc(100vh - 200px); */
-    /* width: 50%; */
     background: white;
     padding: 20px 0;
     border-radius: 20px;
@@ -107,13 +108,34 @@
   }
 
   .close-button{
-    background-color: #f1f1f1;
+    background-color: #9370DB; 
+    color: white;
+    border: none;
+    border-radius: 50%;
     width: 30px;
     height: 30px;
-    color: rgb(95, 95, 95);
     font-size: 20px;
-    border: none;
     cursor: pointer;
-    border-radius: 50%;
+    transition: background-color 0.3s ease;
   }
+  
+  .nice-button {
+    background-color: #9370DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .nice-button:hover {
+    background-color: #7B68EE;;
+  }
+
+  .nice-button:active {
+    background-color: #6A5ACD;
+  }
+
 </style>
