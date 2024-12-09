@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "svelte": "^4.2.18",
     "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-directions": "^4.3.1",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^3.8.0"
   }
 }

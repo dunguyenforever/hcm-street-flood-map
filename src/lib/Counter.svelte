@@ -8,3 +8,10 @@
 <button on:click={increment}>
   count is {count}
 </button>
+
+<style>
+  button{
+    height: 100px;
+    width: 100px;
+  }
+</style>
