@@ -1,6 +1,10 @@
 # Ho Chi Minh City Street Flood Map
 ## Why was this project made?
 Every year during the monsoon season in Ho Chi Minh City, Vietnam, the combination of heavy rainfall and insufficient urban infrastructure leads to severe flooding. This poses significant challenges for residents, including dangerous commutes and damaged vehicles. As an active commuter, I have experienced firsthand the chaos and dangers of navigating flooded streets. To address this problem, I designed a flood mapping system that provides real-time information on flood levels along specific routes, helping users avoid hazards and travel more safely during the monsoon season.
+
+## Motivations and Analysis
+For a more comprehensive and detailed explanation of the motivations behind the development of this website, please refer to the [Motivations and Analysis Document](https://github.com/dunguyenforever/hcm-street-flood-map/blob/main/docs/Motivations_and_Analysis.docx)
+
 ## Affordances
 - Physical Affordances: An intuitive interface that allows users to interact with a map, visualize flood levels, and select safe routes easily.
 - Cognitive Affordances: Clear visual indicators, such as color-coded flood levels, help users understand the severity of flooding at a glance.
