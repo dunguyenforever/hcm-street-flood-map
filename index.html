@@ -9,7 +9,6 @@
 <style>
 body { margin: 0; padding: 0; }
 #map { height: 100vh; top: 0; bottom: 0; width: 100%;}
-/* #app {  z-index: 9999; background-color: red;} */
 </style>
 </head>
 <body>
@@ -25,7 +24,6 @@ body { margin: 0; padding: 0; }
         mapboxgl.accessToken = 'pk.eyJ1IjoiZHVuZ3V5ZW4wMyIsImEiOiJjbTRmdTJkOWgxZXpoMnFwemloZWh3YzRuIn0.bmINPlDOGZSmlj4JjxMjFg';
           const map = new mapboxgl.Map({
               container: 'map',
-              // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
               style: 'mapbox://styles/mapbox/streets-v12',
               center: [106.5012983, 10.7753449],
               zoom: 13
