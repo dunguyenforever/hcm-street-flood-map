@@ -1,5 +1,5 @@
 # Ho Chi Minh City Street Flood Map
-## Why was this project made?
+## Why was this project made? [Ho Chi Minh Street Flood Map](https://hcm-street-flood-map.vercel.app/)
 Every year during the monsoon season in Ho Chi Minh City, Vietnam, the combination of heavy rainfall and insufficient urban infrastructure leads to severe flooding. This poses significant challenges for residents, including dangerous commutes and damaged vehicles. As an active commuter, I have experienced firsthand the chaos and dangers of navigating flooded streets. To address this problem, I designed a flood mapping system that provides real-time information on flood levels along specific routes, helping users avoid hazards and travel more safely during the monsoon season.
 
 ## Motivations and Analysis
@@ -27,8 +27,12 @@ The design features:
 ![Screenshot 2024-12-09 030724](https://github.com/user-attachments/assets/6163712b-298e-4f99-b6b2-f83e710f5ba1)
 
 ## Implementation
+Click here to visit the [Ho Chi Minh Street Flood Map](https://hcm-street-flood-map.vercel.app/)
 
-### Features
+A video walking through the website's implementation and a guide on using it.
+https://youtu.be/RqxgTfDW7pE
+
+## Features
 - Real-time Flood Mapping: Displays flooded areas and their severity levels.
 - Route Planning: Suggests alternative safe routes for commuters.
 - Notifications: Sends alerts about worsening conditions in nearby areas.
@@ -37,8 +41,8 @@ The design features:
 ## Future 
 - Expand coverage by including more streets and information
 - Expand functionality: including information on the roads and streets so it can be used in other weather conditions.
-- Expand to mobile app and other format.
-- Reactive and increase website's performance and flow for prettier and easier viewing of the information. 
+- Expand to mobile apps and other format.
+- Reactive and increase the website's performance and flow for prettier and easier viewing of the information. 
 
 ## Use of AI 
 - Suggestion on how to implement the external API
